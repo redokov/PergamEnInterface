@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd56dd22-6986-4c90-a658-1d8d62030649">
+  <producedTypes>
+    <objectType typeId="932df02b-2571-488f-a903-01163e4fa770" valueTypeId="37c92181-35b4-4f23-9482-6d63e92854fe">
+    </objectType>
+  </producedTypes>
+  <name>ПергамПереводРасширенияНаАнглийский</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевод расширения на английский</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="12a6bb01-2baf-48e2-bac6-ee3b7a4ae9ff"/>
+  <defaultForm>ExternalDataProcessor.ПергамПереводРасширенияНаАнглийский.Form.Форма</defaultForm>
+  <attributes uuid="0f8dd60e-50e6-49dc-8699-19115ce207a8">
+    <name>ПутьКРасширению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к расширению</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <tabularSections uuid="141cf80e-24ea-40cb-b140-7f9323b2f62b">
+    <producedTypes>
+      <objectType typeId="80aebb68-1f54-4a38-a6fd-42b7e0412b33" valueTypeId="b298a470-f8c1-45ac-baa8-ed845e83ed95">
+      </objectType>
+      <rowType typeId="c325c2e1-59fd-4d64-b504-0560969fc60c" valueTypeId="23170721-b97c-4996-b6ca-185baa9d5c4f">
+      </rowType>
+    </producedTypes>
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <attributes uuid="e048d0d9-c669-4d82-a5ce-45ca5c04906f">
+      <name>ПутьКРеквизиту</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к реквизиту</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="167efd49-9546-4523-9ba9-9b9a91fc6a2d">
+      <name>НаименованиеРусское</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование русское</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="a5705fdb-2cc1-4a14-b31d-c8c093a170a6">
+      <name>НаименованиеАнглийское</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование английское</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="39efb072-96d7-450b-b8da-6bee4364885d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
